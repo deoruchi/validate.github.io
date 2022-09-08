@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/*for header part*/
+
+header{ 
+    background: url(images/bg-main-mobile.png) no-repeat ;
+    background-size: cover;
+    height: 40vh;
+    margin: 0 0 100px 0 ;
+    padding: 5%;
+}
+
+.move{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+
+    width: 80%;
+    align-self: flex-end;
+    height:30vh;
+
+}
+
+.card2{
+    background: url(images/bg-card-front.png) no-repeat;
+    background-size: cover;
+    width: 80%;
+    display: relative;
+    height:30vh;
+    transform: translate(-10%,-45%);
+    padding: 5%;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.884);
+    display: grid;
+    grid-template-rows: 50% 30% 20%;
+}
+
+
+#zero{
+
+    font-size: 1.2rem;   
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_logo{
+    width:20%;
+    align-self: flex-start;
+} 
+
+/*for main form section*/
+main{
+    padding: 5%;
+
+}
+
+.op{
+    border-radius: 5px;
+    width: 100%;
+    border:1px solid hsl(270, 3%, 87%);
+    padding: 2%;
+    
+}
+.op1{
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+.op2{
+    margin-bottom: 10PX;
+}
+
+.container2
+{
+    display: flex;
+
+}
+
+.p{
+    width:50%;
+    margin-right: 5%;
+}
+
+.l{
+    margin-left: 5%;
+}
+
+.inputs{
+    display: flex;
+
+}
+
+.p1
+{
+   width: 12%; 
+}
+
+#cvv{
+    width:100%;
+}
+
+.button{
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: solid 0 transparent;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    
+}
+.error{
+    color: red;
+    font-size: 0.9rem;
+    margin:5% 0 ;
+}
+
+@media screen and (min-width:1024px) {
+    
+    
+}

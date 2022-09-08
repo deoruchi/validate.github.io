@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    flex-direction: column;
+    list-style:2rem;
+    align-items: center;
+    justify-content: center;
+    color: hsl(278, 68%, 11%);
+}
+
+.ok{
+    width: 20%;
+}
+
+.ty{
+    text-align: center;
+    margin: 10%;
+    
+}
+.ty p{
+    color: hsl(279, 6%, 55%);
+}
+.ty h1,.ty p{
+    font-weight: 600;
+    line-height: 2.5rem;
+    letter-spacing: 0.09rem;
+}
