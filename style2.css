@@ -24,3 +24,7 @@ main{
     line-height: 2.5rem;
     letter-spacing: 0.09rem;
 }
+
+@media screen and (min-width:1024px){
+    
+}
