@@ -132,12 +132,15 @@ main{
     body{
         display: flex;
         flex-direction: row;
+        
+
     }
     header{
-        width:500px;
+
         height:200%;
         display: flex;
-        margin-right: 5%;   
+        margin: 0;
+        margin-right: 5%; 
     }
 
     .move{
@@ -145,4 +148,15 @@ main{
         left:50%;
     }
     
+    .error{
+        font-size: 0.9rem;
+        margin:1.5% 0 ;
+    }
+
+    main{
+        margin:10% 5%;
+    }
+    #cvv{
+        padding: 4.5%;
+    }
 }
